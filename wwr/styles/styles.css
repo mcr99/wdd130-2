@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Rubik:ital,wght@1,400;1,600&display=swap');
 
 #logo_link {
-    padding: 5px;
+    padding-top: 5px;
 }
 
 #content {
@@ -11,25 +11,55 @@
 
 nav a{
     text-align: center;
-    padding: 5px 35px;
+    padding: 35px;
     background-color: #274c77;
     color:#e7ecef;
     text-decoration: none;
 }
 
-#hero-msg h1, #hero-msg h4, .botton-box, 
 main section{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;    
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+#hero-msg h1{
     text-align: center;
 }
 
 #background {
     height: 725px;
-    color:#6096ba
+    background-color: #6096ba;
 }
 
-.home-title, h4, .join:hover, .book:hover{
+.book:hover{
     background-color: #e7ecef;
     color:#6096ba;
+}
+
+.join:hover{
+    background-color: #e7ecef;
+    color:#6096ba;
+}
+
+h4{
+    background-color: #e7ecef;
+    color:#6096ba;
+    font-family: rubik, 'rock salt', 'sans-serif';
+}
+
+.home-title{
+    background-color: #e7ecef;
+    color:#6096ba;  
+    font-family: roboto, 'rock salt', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 body {
@@ -54,10 +84,26 @@ body {
 
 .icon {
     padding-top: 10px;
+    width: 80px;
 }
 
-nav a:hover, header, footer a, footer a:hover  
-{
+footer a:hover  {
+    background-color: #274c77;
+    color:#e7ecef
+}
+
+footer a{
+    background-color: #274c77;
+    color:#e7ecef;
+    text-decoration: none;
+}
+
+header{
+    background-color: #274c77;
+    color:#e7ecef
+}
+
+nav a:hover{
     background-color: #274c77;
     color:#e7ecef
 }
@@ -70,8 +116,16 @@ footer {
     margin-top: 200px;
 }
 
-.rivers-card, .camping-card, .rapids-card {
+ .rapids-card {
     margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rivers-card{
+    margin: 200px 0;  
 }
 
 .card-img {
@@ -90,25 +144,24 @@ main section img {
     width: 100%;
 }
 
-footer a {
-    text-decoration: none;
-}
-
 footer p {
     font-size: 1.2em;
 }
 
-footer p, a:hover {
+footer p a:hover {
     text-decoration: underline;
 }
 
-.home-title {
-    font-family: roboto, 'rock salt', 'sans-serif';
-    font-size: 2em;
-    margin-top: 10px;
+.msg h2 {
+    font-family: rubik, 'rock salt', 'sans-serif';
+    padding: 35px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    background-color: #274c77;
+    color: #e7ecef;
 }
 
-.msg, .msg h2 {
+.msg{
     font-family: rubik, 'rock salt', 'sans-serif';
     padding: 35px;
     font-size: 1.5em;
@@ -123,10 +176,6 @@ footer p, a:hover {
     color:#e7ecef
 }
 
-h4 {
-    font-family: rubik, 'rock salt', 'sans-serif';
-}
-
 h2 {
     font-family: rubik, 'rock salt', 'sans-serif';
     margin: 0;
@@ -137,7 +186,7 @@ p {
     line-height: 1.5em;
 }
 
-.social {
+footer .social img {
     padding-top: 15px;
 }
 
