@@ -290,3 +290,74 @@ img {
         margin-top: 25px;
     }
 }
+
+/*  Rivers Page  */
+
+.rivers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 0.75em;
+    align-items: center;
+}
+
+.idaho {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 100px 100px 0px 100px;
+    align-items: center;
+}
+
+
+.river_info_idaho{
+    grid-column: 1/2;
+    margin-right: 100px;
+}
+
+.river_img_idaho{
+    grid-column: 2/3;
+    width: 100%;
+}
+
+.utah {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    margin: 20px 100px 0px 100px;
+    align-items: center;
+}
+
+.river_info_utah{
+    grid-column: 2/3;
+    margin-left: 100px;
+}
+
+.river_img_utah{
+    grid-column: 1/2;
+    grid-row: 1;
+    width: 100%;
+}
+
+.arizona {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 20px 100px 100px 100px;
+    align-items: center;
+}
+
+.river_info_arizona{
+    grid-column: 1/2;
+    margin-right: 100px;
+}
+
+.river_img_arizona{
+    grid-column: 2/3;
+    width: 100%;
+}
+
