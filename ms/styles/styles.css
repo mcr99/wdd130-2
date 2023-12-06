@@ -132,6 +132,74 @@ nav {
     text-align: center;
 }
 
+
+/* History page  */
+
+.home-history {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 1fr 1px 1fr 1px 1fr 1px 1fr;
+}
+
+.card-img-history{
+    border: 10px solid #274c77;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+}
+
+.forest-history{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+}
+
+.desert-history{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+}
+
+.h-f{
+    grid-column: 3/4;
+    margin-top: -1%;
+}
+
+.lake-history{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+}
+
+.hotel-history{
+    grid-column: 2/3;
+    grid-row: 8/9;
+    margin: 16%;
+}
+
+.msg-history{
+    grid-column: 2/3;
+    grid-row: 8;
+    margin-top: 59.3%;
+    margin-left: 42%;
+}
+
+.book-history{
+    padding: 15px 30px;
+    background-color: #FEC601;
+    color:#2364AA;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: -50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
 /* Footer part */
 
 footer {
