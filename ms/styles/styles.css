@@ -135,11 +135,21 @@ nav {
 
 /* History page  */
 
+/*
 .home-history {
     display: grid;
     grid-template-columns: 100px 1fr 100px;
     grid-template-rows: 100px 1fr 1px 1fr 1px 1fr 1px 1fr;
+} 
+*/
+
+.home-history {
+display: grid;
+grid-template-columns: 100px 1fr 100px;
+grid-row-gap: 20px;
+grid-template-rows: 250px 250px; 
 }
+
 
 .card-img-history{
     border: 10px solid #274c77;
@@ -147,6 +157,7 @@ nav {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/2;
+    align-self: center;
 }
 
 .forest-history{
@@ -154,6 +165,7 @@ nav {
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 1fr 100px 1fr;
+    margin: -20% 0% 0% 0%;
 }
 
 .desert-history{
@@ -166,6 +178,7 @@ nav {
 .h-f{
     grid-column: 3/4;
     margin-top: -1%;
+    align-items: center;
 }
 
 .lake-history{
