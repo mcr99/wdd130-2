@@ -213,6 +213,124 @@ grid-template-rows: 250px 250px;
 }
 
 
+/* information page */ 
+
+.home-information{
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 400px 400px 400px 500px 100px;
+}
+
+.forest-info{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-forest{
+    font-size:medium;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.desert-info{
+    grid-column: 2/3;
+    grid-row: 3/4; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-desert{
+    font-size:medium;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.lake-info{
+    grid-column: 2/3;
+    grid-row: 4/5;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-lake{
+    font-size:medium;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.wheater{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 100px 150px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.card-img-info{
+    width: 350px;
+    align-items:center;
+    margin-left: -10%;
+    border: 10px solid #274c77;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px;
+}
+
+.sun-img{
+    width: 70%;
+    border: 5px solid #274c77;
+    border-radius: 10px;
+}
+
+.sun-text{
+    font-size: 100%;
+}
+
+.snow-img{
+    width: 70%;
+    border: 5px solid #274c77;
+    border-radius: 10px;
+}
+
+.snow-text{
+    font-size: 100%;
+}
+
+.wind-img{
+    width: 70%;
+    border: 5px solid #274c77;
+    border-radius: 10px;
+}
+
+.wind-text{
+    font-size: 100%;
+}
+
+
+.book-info{
+    padding: 15px 30px;
+    background-color: #FEC601;
+    color:#2364AA;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: -50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.msg-info{
+    grid-column: 2/3;
+    grid-row: 5;
+    margin-top: 61.4%;
+    margin-left: 42%;
+}
+
+.hotel-info{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin: 16%;
+}
+
 /* Footer part */
 
 footer {
