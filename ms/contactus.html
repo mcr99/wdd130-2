@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Agency | Home</title>
+</head>
+<body>
+<div id="content">
+    <header>
+      <a id="logo_link" href="index.html">
+          <img class="logo" src="images/mc-yellow.png" alt="MC Agency">
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="information.html">Information</a>
+      </nav>
+    </header>
+<main>
+  <div id="feedback"></div>
+  <form action="/my-handling-form-page" method="post">
+    <ul>
+      <li>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </li>
+      <li>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </li>
+      <li>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+      <li class="button">
+        <button type="submit">Send your message</button>
+      </li>
+    </ul>
+  </form>
+</main>
+<footer>
+    <p>MC Agency &copy; 2023 - Marvin Canastuj</p>
+    <p><a href="site-plan.html">Site Plan</a> </p>
+    <p><a href="contactus.html">Contact Us</a> </p>
+    <div class="social">
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.png" alt="fb icon">
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="images/twitter.png" alt="twitter icon">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/instagram.png" alt="instagram icon">
+      </a>
+    </div>
+  </footer>   
+</div>
+<script>
+  const feedbackElement = document.getElementById('feedback');
+  const formElement = document.forms[0];
+  formElement.addEventListener('submit', function(e) {
+      e.preventDefault();
+      feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+      feedbackElement.style.display = "block";
+      document.body.classList.toggle('moveDown');
+  });
+</script>
+</body>
+</html>
